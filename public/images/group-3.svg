@@ -1,0 +1,20 @@
+<svg width="419" height="162" viewBox="0 0 419 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 0V162M6.87 0V162M18.62 0V162M30.37 0V162M53.86 0V162M42.11 0V162M36.24 0V162M24.49 0V162M12.75 0V162M47.99 0V162M59.73 0V162M71.48 0V162M89.1 0V162M118.46 0V162M106.72 0V162M94.97 0V162M77.35 0V162M65.61 0V162M83.23 0V162M100.85 0V162M124.34 0V162M136.08 0V162M159.58 0V162M153.7 0V162M141.96 0V162M130.21 0V162M112.59 0V162M147.83 0V162M165.45 0V162M177.2 0V162M188.94 0V162M206.56 0V162M200.69 0V162M194.82 0V162M183.07 0V162M171.32 0V162M212.44 0V162M218.31 0V162M230.06 0V162M241.8 0V162M265.3 0V162M253.55 0V162M247.68 0V162M235.93 0V162M224.18 0V162M259.42 0V162M271.17 0V162M282.92 0V162M300.54 0V162M329.9 0V162M318.15 0V162M306.41 0V162M288.79 0V162M277.04 0V162M294.66 0V162M312.28 0V162M335.77 0V40M335.77 54V162M347.52 0V27M347.52 68V162M371.01 0V27M371.01 67V162M365.14 0V24M365.14 71V162M353.39 0V24M353.39 71V162M341.65 0V32M341.65 63V162M324.03 0V162M359.27 0V23M359.27 71V162M376.89 0V32M376.89 64V162M388.63 0V162M400.38 0V162M418 0V162M412.13 0V162M406.25 0V162M394.51 0V162M382.76 55V162M382.76 0V41" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+<mask id="mask0_152_2405" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="336" y="24" width="47" height="47">
+<path d="M359.5 71C372.479 71 383 60.4787 383 47.5C383 34.5213 372.479 24 359.5 24C346.521 24 336 34.5213 336 47.5C336 60.4787 346.521 71 359.5 71Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_152_2405)">
+<path d="M420.86 36.77H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 28.4302H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 24.2603H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 32.6001H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 40.9402H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 49.2803H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 61.79H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 65.9602H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 53.4502H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 45.1101H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 57.6201H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+<path d="M420.86 70.1301H305.83" stroke="black" stroke-width="0.75" stroke-miterlimit="10"/>
+</g>
+</svg>

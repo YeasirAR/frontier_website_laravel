@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Montserrat", system-ui, sans-serif;
+        line-height: auto;
+    }
+
+    /** Montserrat Thin **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 100;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-Thin.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-Thin.woff") format("woff");
+    }
+
+    /** Montserrat ExtraLight **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 200;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-ExtraLight.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-ExtraLight.woff") format("woff");
+    }
+
+    /** Montserrat Light **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 300;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-Light.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-Light.woff") format("woff");
+    }
+
+    /** Montserrat Regular **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-Regular.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-Regular.woff") format("woff");
+    }
+
+    /** Montserrat Medium **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-Medium.woff") format("woff");
+    }
+
+    /** Montserrat SemiBold **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
+    }
+
+    /** Montserrat Bold **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-Bold.woff") format("woff");
+    }
+
+    /** Montserrat ExtraBold **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-ExtraBold.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-ExtraBold.woff") format("woff");
+    }
+
+    /** Montserrat Black **/
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 900;
+        font-style: normal;
+        src: url("/public/fonts/montserrat/Montserrat-Black.woff2") format("woff2"),
+            url("/public/fonts/montserrat/Montserrat-Black.woff") format("woff");
+    }
+}
+

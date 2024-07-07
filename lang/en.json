@@ -1,0 +1,142 @@
+{
+    "menu.home": "home",
+    "menu.philosophy": "philosophy",
+    "menu.sectors": "sectors",
+    "menu.services": "services",
+    "menu.experience": "experience",
+    "menu.contact": "contact",
+    "menu.news": "news",
+
+    "footer.rights": "All Rights Reserved &#174; – Frontier Advisory Hul’Che, 2024",
+    "footer.contact": "Contact us",
+    "footer.follow": "Follow us: ",
+    "footer.linkedin": "Linkedin",
+
+    "home.section1.title.desktop": "Hitting the mark",
+    "home.section1.title.mobile": "Hitting<br>the<br>mark",
+    "home.section1.subtitle.desktop": "Energy policy advisory, sustainability, market entry and capital raising<br>for responsible energy and natural resource projects around Latin America.<br>Acting as a bridge between Latin America and the world.",
+    "home.section1.subtitle.mobile": "Energy policy advisory, sustainability,<br>market entry and capital raising <br>for responsible energy and natural <br>resource projects around Latin <br>America. Acting as a bridge between <br>Latin America and the world.",
+
+    "home.section2.title": "THE FRONTIER<br>METHODOLOGY",
+    "home.section2.subtitle.desktop": "Identify key projects in Latin America where technical skill and market dynamics <br>lead to unique opportunities. We  believe that sustainable development <br>of natural resources is the key to  development in the region and we work <br>with our partners and  stakeholders to make this vision a reality.",
+    "home.section2.subtitle.mobile": "Identify key projects in Latin America where technical skill and market dynamics <br>lead to unique opportunities. We  believe that sustainable development <br>of natural resources is the key to  development in the region and we work <br>with our partners and  stakeholders to make this vision a reality.",
+
+    "home.section3.p1": "Connecting",
+    "home.section3.p2": "the dots.",
+    "home.section3.p3": "Opportunity.",
+    "home.section3.p4": "Successful",
+    "home.section3.p5": "execution.",
+
+    "philosophy.section1.title": "PHILOSOPHY",
+    "philosophy.section1.subtitle.desktop": "We believe that successfull projects balance the needs <br>of stakeholders with the market opportunity without <br>ever losing sight of the core value of our customers <br>and the value that can be provided to society.",
+
+    "philosophy.section2.title": "Frontier’s Process",
+    "philosophy.section2.subtitle1.desktop": "Frontier invests the time and energy to understand our customers’ needs and the <br>market, before we plan and execute. We continuously strive to learn and improve on <br>our results, creating value for our customers and partners at every step of the way.",
+    "philosophy.section2.subtitle1.mobile": "Frontier invests the time and energy to <br>understand our customers’ needs and the <br>market, before we plan and execute. We <br>continuously strive to learn and improve on <br>our results, creating value for our <br>customers and partners at every step of the <br>way.",
+
+    "philosophy.section2.title2": "The Balancing Act",
+    "philosophy.section2.subtitle2.desktop": "It is crucial to balance the needs of the stakeholders with the market opportunity<br>without ever losing sight of the core value of our customers and the value that <br>can be provided to society. Finding the right way  to develop a project requires patience,<br>understanding and a capacity to  listen to all stakeholders and the insight to develop a plan<br>that meets  multiple goals. At first look, there may be many competing goals that  appear to <br>be mutually exclusive, but by taking a long term view a  project plan can be developed that <br>balances the needs and ensures a sustainable solution.",
+    "philosophy.section2.subtitle2.mobile": "It is crucial to balance the needs of the stakeholders with the market opportunity<br>without ever losing sight of the core value of our customers and the value that <br>can be provided to society. Finding the right way  to develop a project requires patience,<br>understanding and a capacity to  listen to all stakeholders and the insight to develop a plan<br>that meets  multiple goals. At first look, there may be many competing goals that  appear to <br>be mutually exclusive, but by taking a long term view a  project plan can be developed that <br>balances the needs and ensures a sustainable solution.",
+
+    "sectors.section1.title": "SECTORS",
+    "sectors.section2.title": "Markets",
+    "sectors.section2.subtitle1": "Latin America",
+    "sectors.section2.subtitle2": "Inbound investment from: North America, Europe and Asia",
+    "sectors.section2.title2": "Areas of Expertise",
+    "sectors.section2.expertise1": "Energy Policy Advocacy",
+    "sectors.section2.expertise2": "Sustainability",
+    "sectors.section2.expertise3": "Oil and Gas",
+    "sectors.section2.expertise4": "Mining",
+    "sectors.section2.expertise5": "Geothermal",
+    "sectors.section2.expertise6": "Renewable Energies",
+    "sectors.section2.expertise7": "Hydrogen / Ammonia",
+    "sectors.section2.expertise8": "LNG",
+    "sectors.section2.expertise9": "Tech",
+    "sectors.section2.expertise10": "Suppliers",
+
+    "services.section1.title": "Services",
+    "services.section1.subtitle1": "+ $ 2.000.000.000",
+    "services.section1.subtitle2": "Capital raise",
+    "services.section2.title": "From zero to hero",
+    "services.section2.subtitle": "Our financing Transaction History",
+
+    "services.section3.card1.title": "Investment Advisory",
+    "services.section3.card1.subtitle.desktop": "We work with investment funds and high value <br>projects to put together financing packages, bridging <br>the gap between capital and good projects.",
+    "services.section3.card1.subtitle.mobile": "We work with investment funds and high <br>value projects to put together financing <br>packages, bridging the gap between <br>capital and good projects.",
+
+    "services.section3.card2.title": "Project Identification",
+    "services.section3.card2.subtitle.desktop": "We work with investors and stakeholders that are <br>seeking the \"right\" team and technology to meet a <br>specific need. If the project is not already out there, <br>we can advise on how best to build the team to <br>develop it.",
+    "services.section3.card2.subtitle.mobile": "We work with investors and stakeholders <br>that are seeking the \"right\" team and <br>technology to meet a specific need. <br>If the project is not already out there, we <br>can advise on how best to build the team <br>to develop it.",
+
+    "services.section3.card3.title": "Due Diligence",
+    "services.section3.card3.subtitle.desktop": "Frontier works on behalf of investors to perform <br>technical and market due diligence on potential <br>investments. Digging deep to get at what really <br>drives the risks and opportunities for a business.",
+    "services.section3.card3.subtitle.mobile": "Frontier works on behalf of investors to <br>perform technical and market due <br>diligence on potential investments. <br>Digging deep to get at what really drives <br>the risks and opportunities for a business.",
+
+    "services.section3.card4.title": "Energy Policy Advisory",
+    "services.section3.card4.subtitle.desktop": "We work with stakeholders, think tanks and <br>governments to advise on energy policy and the <br>positive social impact that effective policies can have <br>on communities. investors.",
+    "services.section3.card4.subtitle.mobile": "We work with stakeholders, think tanks <br>and governments to advise on energy <br>policy and the positive social impact that <br>effective policies can have on <br>communities. investors.",
+
+    "services.section3.card5.title": "Market Entry",
+    "services.section3.card5.subtitle.desktop": "Frontier has worked with a wide variety of <br>companies looking to enter Latin America or expand <br>around the region. We provide advice on regulatory, <br>legal, corporate, financial, operational and marketing <br>strategies.",
+    "services.section3.card5.subtitle.mobile": "Frontier has worked with a wide variety of <br>companies looking to enter Latin America <br>or expand around the region. We provide <br>advice on regulatory, legal, corporate, <br>financial, operational and marketing <br>strategies.",
+
+    "services.section3.card6.title": "Technical Consultancy",
+    "services.section3.card6.subtitle.desktop": "Our experts have experience in some of the most <br>technically challenging projects in Latin America. We <br>can assist with meeting a challenge or optimizing <br>operations.",
+    "services.section3.card6.subtitle.mobile": "Our experts have experience in some of <br>the most technically challenging projects <br>in Latin America. We can assist with <br>meeting a challenge or optimizing <br>operations.",
+
+    "experience.section1.title": "EXPERIENCE",
+    "experience.section2.title": "THE FRONTIER TEAM",
+    "experience.section2.subtitle.desktop": "A mixed team of industry and financial personnel. Our principals have extensive <br> technical skills having worked on numerous large scale and remote developments <br> in Latin America, North America, Asia and Africa. Our team has direct experience in <br> raising over $2 Billion in capital from a variety of regional and global sources.",
+    "experience.section2.subtitle.mobile": "A mixed team of industry and <br>financial personnel. Our principals have extensive technical skills having <br>worked on numerous large scale and <br>remote developments in Latin <br>America, North America, Asia and <br>Africa. Our team has direct <br>experience in raising over $2 Billion <br>in capital from a variety of regional <br>and global sources.",
+
+    "experience.section2.table.header1": "Market",
+    "experience.section2.table.header2": "Project",
+    "experience.section2.table.header3": "Client",
+
+    "experience.section4.title1": "KEY MEMBERS",
+    "experience.section4.keymembers1.name": "Warren Levy",
+    "experience.section4.keymembers1.position": "CEO & Managing Partner",
+    "experience.section4.keymembers1.description.desktop": "Warren has 28 years of International oil and gas <br>experience in the E&P & services space. He is an <br>energy policy expert with extensive experience <br>developing natural resource and other companies in <br>over 20 countries on four continents. <br>Warren has led numerous companies in major local <br>and regional growth through building high <br>performance teams.",
+    "experience.section4.keymembers1.description.mobile": "Warren has 28 years of International oil <br>and gas experience in the E&P & services <br>space. He is an energy policy expert with <br>extensive experience developing natural <br>resource and other companies in over 20 <br>countries on four continents. <br>Warren has led numerous companies in <br>major local and regional growth through <br>building high performance teams.",
+
+    "experience.section4.keymembers2.name": "Arnaud de Limelette",
+    "experience.section4.keymembers2.position": "Lead – Finance & Bus Dev",
+    "experience.section4.keymembers2.description.desktop": "Arnaud has 20+ years experience in commercial, <br>business development and finance. 14+ of which has <br>been on petroleum and floating infrastructure <br>projects around the world including the first FLNG <br>export project. Extensive experience in Latin America <br>and Africa. Arnaud has led multicultural teams and <br>supervised projects on five continents.",
+    "experience.section4.keymembers2.description.mobile": "Arnaud has 20+ years experience in <br>commercial, business development and <br>finance. 14+ of which has been on <br>petroleum and floating infrastructure <br>projects around the world including the <br>first FLNG export project. Extensive <br>experience in Latin America and Africa. <br>Arnaud has led multicultural teams and <br>supervised projects on five continents.",
+
+    "experience.section4.keymembers3.name": "Miles Lewis",
+    "experience.section4.keymembers3.position": "Partner, Lead corporate finance",
+    "experience.section4.keymembers3.description.desktop": "Miles has over 30 years of investment banking <br>experience on both buy and sell sides. He was <br>formerly Head of Equity Derivative Sales at Credit <br>Lyonnais Securities, Managing Director of Compass <br>Investment Management’s technology venture arm <br>and a Director of London’s leading small cap Mining <br>and Natural Resource focused merchant bank, Strand <br>Hanson where has also has acted as Senior Advisor for <br>Latin America since 2009 where he has advised on <br>renewable and conventional energy, mining and <br>telecoms projects. He is a founder and President for <br>Latin America of NeoGreen Hydrogen Corp., a green <br>hydrogen project development company <br>undertaking major developments in Paraguay. ",
+    "experience.section4.keymembers3.description.mobile": "Miles has over 30 years of investment <br>banking experience on both buy and sell <br>sides. He was formerly Head of Equity <br>Derivative Sales at Credit Lyonnais <br>Securities, Managing Director of <br>Compass Investment Management’s <br>technology venture arm and a Director <br>of London’s leading small cap Mining <br>and Natural Resource focused merchant <br>bank, Strand Hanson where has also has <br>acted as Senior Advisor for Latin <br>America since 2009 where he has <br>advised on renewable and conventional <br>energy, mining and telecoms projects. <br>He is a founder and President for Latin <br>America of NeoGreen Hydrogen Corp., a <br>green hydrogen project development <br>company undertaking major <br>developments in Paraguay. ",
+
+    "experience.section4.keymembers4.name": "Jordan Coleman",
+    "experience.section4.keymembers4.position": "Lead – Operations",
+    "experience.section4.keymembers4.description.desktop": "Jordan has 17+ years of experience in oilfield operations. <br>After starting his career in Schlumberger, he has held <br>numerous production, drilling and operational <br>supervision roles in Latin America. He has worked in the <br>US, Argentina, Paraguay during his career.",
+    "experience.section4.keymembers4.description.mobile": "Jordan has 17+ years of experience in <br>oilfield operations. After starting his <br>career in Schlumberger, he has held <br>numerous production, drilling and <br>operational supervision roles in Latin <br>America. He has worked in the US, <br>Argentina, Paraguay during his career.",
+
+    "experience.section4.keymembers5.name": "James Leech",
+    "experience.section4.keymembers5.position": "Corporate Secretary & Legal",
+    "experience.section4.keymembers5.description.desktop": "James practices corporate/commercial and business <br>law with an emphasis on corporate finance, <br>securities, mergers and acquisitions, corporate <br>governance, construction and day to day corporate <br>and commercial activities for public and private <br>issuers, entrepreneurs, underwriters and investment <br>dealers. He regularly provides advice on corporate <br>governance, continuous disclosure obligations and <br>other regulatory compliance matters.",
+    "experience.section4.keymembers5.description.mobile": "James practices corporate/commercial <br>and business law with an emphasis on <br>corporate finance, securities, mergers <br>and acquisitions, corporate governance, <br>construction and day to day corporate <br>and commercial activities for public and <br>private issuers, entrepreneurs, <br>underwriters and investment dealers. <br>He regularly provides advice on <br>corporate governance, continuous <br>disclosure obligations and other <br>regulatory compliance matters.",
+
+    "experience.section4.title2": "ADVISORS",
+    "experience.section4.advisor1.name": "James Edmiston",
+    "experience.section4.advisor1.position": "Strategic Advisor",
+    "experience.section4.advisor1.description.desktop": "James has thirty-five years of experience in Oil & Gas <br>with extensive global experience. Previously held <br>various senior positions in Conoco Phillips and was <br>President of Dubai Petroleum and CEO of Harvest <br>Natural Resources.",
+    "experience.section4.advisor1.description.mobile": "James has thirty-five years of experience <br>in Oil & Gas with extensive global <br>experience. Previously held various <br>senior positions in Conoco Phillips and <br>was President of Dubai Petroleum and <br>CEO of Harvest Natural Resources.",
+
+    "experience.section4.advisor2.name": "Michael Tory",
+    "experience.section4.advisor2.position": "Strategic Advisor",
+    "experience.section4.advisor2.description.desktop": "Michael is a co-founder and Chairman of Ondra LLP. <br>Previously, he served as head of UK investment <br>banking for Lehman Brothers Inc. Michael served as <br>Morgan Stanley’s head of UK investment banking. He <br>has been an adviser to London Stock Exchange Plc <br>and a member of Lehman’s European executive <br>committee.",
+    "experience.section4.advisor2.description.mobile": "Michael is a co-founder and Chairman of <br>Ondra LLP. Previously, he served as head <br>of UK investment banking for Lehman <br>Brothers Inc. Michael served as Morgan <br>Stanley’s head of UK investment <br>banking. He has been an adviser to <br>London Stock Exchange Plc and a <br>member of Lehman’s European <br>executive committee.",
+
+    "contact.section1.title": "CONTACT",
+    "contact.input.name": "Your name",
+    "contact.input.email": "Email*",
+    "contact.input.subject": "Subject",
+    "contact.input.phone": "Phone number",
+    "contact.input.message": "Message",
+    "contact.button.send": "Send Message",
+
+    "news.section1.title": "NEWS"
+}

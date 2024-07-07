@@ -1,0 +1,142 @@
+{
+    "menu.home": "home",
+    "menu.philosophy": "filosofía",
+    "menu.sectors": "sectores",
+    "menu.services": "servicios",
+    "menu.experience": "experiencia",
+    "menu.contact": "contacto",
+    "menu.news": "noticias",
+
+    "footer.rights": "Todos los derechos reservados &#174; – Frontier Advisory Hul’Che, 2024",
+    "footer.contact": "Contáctenos",
+    "footer.follow": "Síganos: ",
+    "footer.linkedin": "Linkedin",
+
+    "home.section1.title.desktop": "Dando en el blanco",
+    "home.section1.title.mobile": "Dando<br>en el<br>blanco",
+    "home.section1.subtitle.desktop": "Asesoría en política energética, sostenibilidad, entrada en el mercado y recaudación de capital<br>para proyectos responsables de energía y recursos naturales en América Latina.<br>Actuando como un puente entre América Latina y el mundo.",
+    "home.section1.subtitle.mobile": "Asesoría en política energética, sostenibilidad,<br>entrada en el mercado y recaudación de capital<br>para proyectos responsables de energía y recursos<br>naturales en América<br>Latina. Actuando como un puente entre<br>América Latina y el mundo.",
+
+    "home.section2.title": "La metodología<br>de Frontier.",
+    "home.section2.subtitle.desktop": "Identificar proyectos clave en América Latina donde la habilidad técnica<br>y las dinámicas del mercado conduzcan a oportunidades únicas. Creemos que el desarrollo sostenible <br>de los recursos naturales es la clave del desarrollo de la región y trabajamos <br>con nuestros socios y partes interesadas para hacer realidad esta visión.",
+    "home.section2.subtitle.mobile": "Identificar proyectos clave en América Latina donde la habilidad técnica<br>y las dinámicas del mercado conduzcan a oportunidades únicas. Creemos que el desarrollo sostenible <br>de los recursos naturales es la clave del desarrollo de la región y trabajamos <br>con nuestros socios y partes interesadas para hacer realidad esta visión.",
+
+    "home.section3.p1": "Uniendo",
+    "home.section3.p2": "los puntos.",
+    "home.section3.p3": "Oportunidad.",
+    "home.section3.p4": "Ejecución",
+    "home.section3.p5": "exitosa.",
+
+    "philosophy.section1.title": "FILOSOFÍA",
+    "philosophy.section1.subtitle.desktop": "Creemos que los proyectos exitosos equilibran las necesidades<br>de las partes interesadas con las oportunidades del mercado, sin<br>perder de vista el valor fundamental de nuestros clientes<br>y el valor que se puede aportar a la sociedad.",
+
+    "philosophy.section2.title": "Proceso de Frontier",
+    "philosophy.section2.subtitle1.desktop": "Frontier invierte tiempo y energía en comprender las necesidades de nuestros clientes y el<br>mercado, antes de planificar y ejecutar. Nos esforzamos continuamente por aprender y mejorar<br>nuestros resultados, creando valor para nuestros clientes y socios en cada paso del camino.",
+    "philosophy.section2.subtitle1.mobile": "Frontier invierte tiempo y energía en <br>comprender las necesidades de nuestros clientes y el <br>mercado, antes de planificar y ejecutar. Nos <br>esforzamos continuamente por aprender y mejorar <br>our results, creating value for our <br>nuestros resultados, creando valor para nuestros clientes y socios en cada paso del <br>camino.",
+
+    "philosophy.section2.title2": "El equilibrio",
+    "philosophy.section2.subtitle2.desktop": "Es crucial equilibrar las necesidades de las partes interesadas con la oportunidad del mercado <br>sin perder de vista el valor fundamental de nuestros clientes y el valor que se <br>puede aportar a la sociedad. Encontrar la forma correcta de desarrollar un proyecto requiere paciencia, <br>comprensión y capacidad para escuchar a todas las partes interesadas y perspicacia para elaborar un plan <br>que satisfaga múltiples objetivos. A primera vista, puede haber muchos objetivos contrapuestos que parezcan <br>excluirse mutuamente, pero adoptando una visión a largo plazo puede elaborarse un plan de proyecto que <br>equilibre las necesidades y garantice una solución sostenible.",
+    "philosophy.section2.subtitle2.mobile": "Es crucial equilibrar las necesidades de las partes interesadas con la oportunidad del mercado <br>sin perder de vista el valor fundamental de nuestros clientes y el valor que se <br>puede aportar a la sociedad. Encontrar la forma correcta de desarrollar un proyecto requiere paciencia, <br>comprensión y capacidad para escuchar a todas las partes interesadas y perspicacia para elaborar un plan <br>que satisfaga múltiples objetivos. A primera vista, puede haber muchos objetivos contrapuestos que parezcan <br>excluirse mutuamente, pero adoptando una visión a largo plazo puede elaborarse un plan de proyecto que <br>equilibre las necesidades y garantice una solución sostenible.",
+
+    "sectors.section1.title": "SECTORES",
+    "sectors.section2.title": "Mercados",
+    "sectors.section2.subtitle1": "América Latina",
+    "sectors.section2.subtitle2": "Inversión entrante desde América del Norte, Europa y Asia",
+    "sectors.section2.title2": "Áreas de experiencia",
+    "sectors.section2.expertise1": "Impulso de políticas energéticas",
+    "sectors.section2.expertise2": "Sostenibilidad",
+    "sectors.section2.expertise3": "Petróleo y Gas",
+    "sectors.section2.expertise4": "Minería",
+    "sectors.section2.expertise5": "Geotérmica",
+    "sectors.section2.expertise6": "Energías renovables",
+    "sectors.section2.expertise7": "Hidrógeno / Amoníaco",
+    "sectors.section2.expertise8": "Gas natural licuado (GNL)",
+    "sectors.section2.expertise9": "Tecnología",
+    "sectors.section2.expertise10": "Proveedores",
+
+    "services.section1.title": "Servicios",
+    "services.section1.subtitle1": "+ $ 2.000.000.000",
+    "services.section1.subtitle2": "De financiamiento de capital conseguido",
+    "services.section2.title": "De cero a cien",
+    "services.section2.subtitle": "Nuestro historial de transacciones de financiamiento",
+
+    "services.section3.card1.title": "Asesoría de Inversiones",
+    "services.section3.card1.subtitle.desktop": "Trabajamos con fondos de inversión y proyectos<br>de alto valor para elaborar paquetes de financiamiento, cerrando <br>la brecha entre el capital y los buenos proyectos.",
+    "services.section3.card1.subtitle.mobile": "Trabajamos con fondos de inversión y proyectos <br>de alto valor para elaborar paquetes <br>de financiamiento, cerrando la brecha entre  <br>el capital y los buenos proyectos.",
+
+    "services.section3.card2.title": "Identificación de Proyectos",
+    "services.section3.card2.subtitle.desktop": "Trabajamos con inversores y partes interesadas que están<br>buscando el equipo \"adecuado\" y la tecnología para satisfacer una<br>necesidad específica. Si el proyecto aún no está en marcha,<br>podemos asesorar sobre la mejor manera de formar el equipo para<br>desarrollarlo.",
+    "services.section3.card2.subtitle.mobile": "Trabajamos con inversores y partes interesadas <br>que están buscando el equipo \"adecuado\" y<br>la tecnología para satisfacer una necesidad específica.<br>Si el proyecto aún no está en marcha, podemos<br>asesorar sobre la mejor manera de formar el equipo<br>para desarrollarlo.",
+
+    "services.section3.card3.title": "Debida investigación",
+    "services.section3.card3.subtitle.desktop": "Frontier trabaja en nombre de los inversores para realizar <br>la investigación técnica y de mercado necesaria sobre las potenciales <br>inversiones. Profundizamos para comprender qué impulsa  <br>realmente los riesgos y oportunidades para un negocio.",
+    "services.section3.card3.subtitle.mobile": "Frontier trabaja en nombre de los inversores para<br>realizar la investigación técnica y de mercado<br>necesaria sobre las potenciales inversiones.<br>Profundizamos para comprender qué impulsa realmente<br>los riesgos y oportunidades para un negocio.",
+
+    "services.section3.card4.title": "Asesoramiento en Política Energética",
+    "services.section3.card4.subtitle.desktop": "Trabajamos con las partes interesadas, grupos de expertos y<br>gobiernos para asesorar sobre políticas energéticas y el<br>impacto social positivo que las políticas efectivas pueden tener<br>en las comunidades e inversores.",
+    "services.section3.card4.subtitle.mobile": "Trabajamos con las partes interesadas, grupos de expertos<br>y gobiernos para asesorar sobre políticas<br>energéticas y el impacto social positivo que<br>las políticas efectivas pueden tener en<br>las comunidades e inversores.",
+
+    "services.section3.card5.title": "Ingreso al Mercado",
+    "services.section3.card5.subtitle.desktop": "Frontier ha trabajado con una amplia variedad de<br>empresas que buscan ingresar a América Latina o expandirse<br>en la región. Brindamos asesoramiento sobre estrategias regulatorias,<br>legales, corporativas, financieras, operativas<br>y de marketing.",
+    "services.section3.card5.subtitle.mobile": "Frontier ha trabajado con una amplia variedad de<br>empresas que buscan ingresar a América Latina<br>o expandirse en la región. Brindamos <br>asesoramiento sobre estrategias regulatorias, legales, corporativas,<br>financieras, operativas y de<br>marketing.",
+
+    "services.section3.card6.title": "Consultoría Técnica",
+    "services.section3.card6.subtitle.desktop": "Nuestros expertos tienen experiencia en algunos de los proyectos <br>técnicamente más desafiantes en América Latina. Podemos<br>ayudar a enfrentar un desafío u optimizar<br>operaciones.",
+    "services.section3.card6.subtitle.mobile": "Nuestros expertos tienen experiencia en algunos de<br>los proyectos técnicamente más desafiantes <br>en América Latina. Podemos ayudar a <br>enfrentar un desafío u optimizar<br>operaciones.",
+
+    "experience.section1.title": "Experiencia",
+    "experience.section2.title": "EL EQUIPO DE FRONTIER",
+    "experience.section2.subtitle.desktop": "Un equipo mixto de personal de la industria y financiero. Nuestros miembros principales tienen amplias <br> habilidades técnicas, habiendo trabajado en numerosos desarrollos a gran escala y remotos <br> en América Latina, América del Norte, Asia y África. Nuestro equipo tiene experiencia directa en<br>la recaudación de más de $2 mil millones en capital de una variedad de fuentes regionales y globales.",
+    "experience.section2.subtitle.mobile": "Un equipo mixto de personal de la industria y<br>financiero. Nuestros miembros principales<br>tienen amplias habilidades técnicas, habiendo<br>trabajado en numerosos desarrollos a gran escala y<br>remotos en América Latina,<br>América del Norte, Asia y<br>África. Nuestro equipo tiene experiencia <br>directa la recaudación de más de $2 mil millones<br>en capital de una variedad de fuentes regionales<br>y globales.",
+
+    "experience.section2.table.header1": "Mercado",
+    "experience.section2.table.header2": "Proyecto",
+    "experience.section2.table.header3": "Cliente",
+
+    "experience.section4.title1": "MIEMBROS CLAVE",
+    "experience.section4.keymembers1.name": "Warren Levy",
+    "experience.section4.keymembers1.position": "CEO y Socio Director",
+    "experience.section4.keymembers1.description.desktop": "Warren cuenta con 28 años de experiencia internacional<br>en petróleo y gas en el sector de exploración & producción y servicios. Es un<br>experto en políticas energéticas con amplia experiencia<br>en el desarrollo de empresas de recursos naturales y otras en<br>más de 20 países en cuatro continentes.<br>Warren ha liderado numerosas empresas en un crecimiento local<br>y regional significativo mediante la construcción de<br>equipos de alto rendimiento.",
+    "experience.section4.keymembers1.description.mobile": "Warren cuenta con 28 años de experiencia internacional<br>en petróleo y gas en el sector de exploración & producción y servicios.<br>Es un experto en políticas energéticas con<br>amplia experiencia en el desarrollo de <br>de empresas de recursos naturales y otras en más de 20<br>países en cuatro continentes.<br>Warren ha liderado numerosas empresas en<br>un crecimiento local y regional significativo mediante<br>la construcción de equipos de alto rendimiento.",
+
+    "experience.section4.keymembers2.name": "Arnaud de Limelette",
+    "experience.section4.keymembers2.position": "Líder - Finanzas y Desarrollo Comercial",
+    "experience.section4.keymembers2.description.desktop": "Arnaud cuenta con más de 20 años de experiencia en comercio,<br>desarrollo empresarial y finanzas, de los cuales más de 14 han<br>sido en proyectos de petróleo y infraestructura flotante<br>en todo el mundo, incluido el primer proyecto de exportación de <br>GNL flotante. Amplia experiencia en América Latina<br>y África. Arnaud ha liderado equipos multiculturales y<br>supervisado proyectos en cinco continentes.",
+    "experience.section4.keymembers2.description.mobile": "Arnaud cuenta con más de 20 años de experiencia en<br>comercio, desarrollo empresarial y<br>finanzas. de los cuales más de 14 han<br>sido en proyectos de petróleo y infraestructura<br>flotante en todo el mundo, incluido el<br>primer proyecto de exportación de GNL flotante. Amplia<br>experiencia en América Latina y África.<br>Arnaud ha liderado equipos multiculturales y<br>supervisado proyectos en cinco continentes.",
+
+    "experience.section4.keymembers3.name": "Miles Lewis",
+    "experience.section4.keymembers3.position": "Partner, Lead corporate finance",
+    "experience.section4.keymembers3.description.desktop": "Miles cuenta con más de 30 años de experiencia en banca de inversión<br>tanto en el lado de compra como en el de venta. Anteriormente, <br>fue Jefe de Ventas de Derivados de Capital en Credit<br>Lyonnais Securities, Director Gerente de la<br>sección de capital de riesgo tecnológico de Compass Investment Management<br>y Director de uno de los principales bancos de inversión especializados en pequeñas<br>empresas mineras y de recursos naturales de Londres, Strand <br>Hanson, donde también ha actuado como Asesor Senior para<br>América Latina desde 2009, asesorando en<br>proyectos de energía renovable y convencional, minería y<br>telecomunicaciones. Es fundador y presidente para<br>América Latina de NeoGreen Hydrogen Corp., una empresa<br>de desarrollo de proyectos de hidrógeno verde<br>que lleva a cabo importantes desarrollos en Paraguay.",
+    "experience.section4.keymembers3.description.mobile": "Miles cuenta con más de 30 años de experiencia<br>en banca de inversión en el lado de compra como en el de venta.<br>Anteriormente, fue Jefe de Ventas<br>de Derivados de Capital en Credit Lyonnais<br>Securities, Director Gerente de la<br>sección de capital de riesgo tecnológico<br>de Compass Investment Management y Director<br>de uno de los principales bancos de inversión especializados en pequeñas<br>empresas mineras y de recursos naturales de Londres,<br>Strand Hanson donde también ha actuado como<br>Asesor Senior para América <br>America Latina desde 2009, asesorando en<br>proyectos de energía renovable y convencional,<br>minería y telecomunicaciones.<br>Es fundador y presidente para América<br>Latina de NeoGreen Hydrogen Corp., una<br>empresa de desarrollo de proyectos de hidrógeno verde<br>que lleva a cabo importantes<br>desarrollos en Paraguay.",
+
+    "experience.section4.keymembers4.name": "Jordan Coleman",
+    "experience.section4.keymembers4.position": "Líder – Operaciones",
+    "experience.section4.keymembers4.description.desktop": "Jordan cuenta con más de 17 años de experiencia en operaciones de campos petroleros.<br>Después de comenzar su carrera en Schlumberger, ha ocupado<br>numerosos roles de producción, perforación y supervisión<br>operativa en América Latina. Ha trabajado en<br>Estados Unidos, Argentina y Paraguay durante su carrera.",
+    "experience.section4.keymembers4.description.mobile": "Jordan cuenta con más de 17 años de experiencia en<br>operaciones de campos petroleros. Después de comenzar su<br>carrera en Schlumberger, ha ocupado<br>numerosos roles de producción, perforación y<br>supervisión operativa en América <br>Latina. Ha trabajado en Estados Unidos,<br>Argentina y Paraguay durante su carrera.",
+
+    "experience.section4.keymembers5.name": "James Leech",
+    "experience.section4.keymembers5.position": "Secretario Corporativo y Legal",
+    "experience.section4.keymembers5.description.desktop": "James ejerce el derecho corporativo/comercial y empresarial <br>con énfasis en finanzas corporativas,<br>valores, fusiones y adquisiciones, gobernanza<br>corporativa, construcción y actividades corporativas<br>y comerciales cotidianas para emisores públicos<br>y privados, emprendedores, suscriptores y corredores <br>de inversiones. Regularmente proporciona asesoramiento sobre gobernanza<br>corporativa, obligaciones de divulgación continua y<br>otros asuntos de cumplimiento normativo.",
+    "experience.section4.keymembers5.description.mobile": "James ejerce el derecho corporativo/comercial<br>y empresarial con énfasis en<br>finanzas corporativas, valores, fusiones<br>y adquisiciones, gobernanza corporativa,<br>construcción y actividades corporativas<br>y comerciales cotidianas para emisores públicos y<br>privados, emprendedores,<br>suscriptores y corredores de inversiones.<br>Regularmente proporciona asesoramiento sobre<br>gobernanza corporativa, obligaciones de<br>divulgación continua y otros<br>asuntos de cumplimiento normativo.",
+
+    "experience.section4.title2": "Asesores",
+    "experience.section4.advisor1.name": "James Edmiston",
+    "experience.section4.advisor1.position": "Asesor Estratégico",
+    "experience.section4.advisor1.description.desktop": "James cuenta con treinta y cinco años de experiencia en Petróleo y Gas<br>con una amplia experiencia global. Anteriormente ocupó <br>varios cargos de alto nivel en Conoco Phillips y fue<br>Presidente de Dubai Petroleum y CEO de Harvest<br>Natural Resources.",
+    "experience.section4.advisor1.description.mobile": "James cuenta con treinta y cinco años de experiencia<br>en Petróleo y Gas with con una amplia experiencia<br>global. Anteriormente ocupó varios<br>cargos de alto nivel en Conoco Phillips y<br>fue Presidente de Dubai Petroleum y<br>CEO de Harvest Natural Resources.",
+
+    "experience.section4.advisor2.name": "Michael Tory",
+    "experience.section4.advisor2.position": "Asesor Estratégico",
+    "experience.section4.advisor2.description.desktop": "Michael es cofundador y presidente de Ondra LLP.<br>Anteriormente, se desempeñó como jefe de banca de <br>inversión en el Reino Unido para Lehman Brothers Inc. Michael también fue<br>jefe de banca de inversión en el Reino Unido de Morgan Stanley. Ha<br>sido asesor de London Stock Exchange Plc<br>y miembro del comité ejecutivo europeo de<br>Lehman.",
+    "experience.section4.advisor2.description.mobile": "Michael es cofundador y presidente de<br>Ondra LLP. Anteriormente, se desempeñó como jefe<br>de banca de inversión en el Reino Unido para Lehman<br>Brothers Inc. Michael también fue Michael jefe de banca<br>de inversión en el Reino Unido de Morgan<br>Stanley. Ha sido asesor de<br>London Stock Exchange Plc y<br>miembro del comité ejecutivo<br>europeo de Lehman.",
+
+    "contact.section1.title": "CONTACTO",
+    "contact.input.name": "Nombre y apellidos",
+    "contact.input.email": "Dirección de e-mail",
+    "contact.input.subject": "Asunto",
+    "contact.input.phone": "Número de teléfono",
+    "contact.input.message": "Mensaje",
+    "contact.button.send": "Enviar mensaje",
+
+    "news.section1.title": "NOTICIAS"
+}
