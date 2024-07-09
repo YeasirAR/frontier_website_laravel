@@ -8,7 +8,12 @@
     @vite('resources/js/app.js')
     @vite('resources/js/services-animation.js')
     <title>Services</title>
-
+    <style>
+        #slider-container {
+            display: flex;
+            width: 5371px;
+        }
+    </style>
 </head>
 
 <body>
