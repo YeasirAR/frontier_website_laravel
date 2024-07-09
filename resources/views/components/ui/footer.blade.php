@@ -10,13 +10,12 @@
     <div class="flex-1">
     </div>
     {{-- Contact --}}
-    <div class="text-white flex xs:w-full md:w-auto gap-[55px] md:items-center justify-between">
-        <a href="{{ route('contact') }}">
+    <div class="flex flex-col md:flex-row items-center text-white gap-4 md:gap-12 mt-4 md:mt-0">
+        <a style="white-space: nowrap;" href="{{ route('contact') }}" class="text-center md:text-left">
             <span>{{ __('footer.contact') }}</span>
         </a>
-
-        <div class="flex gap-1">
-            <p>{{ __('footer.follow') }}</p>
+        <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+        <p style="white-space: nowrap;">{{ __('footer.follow') }}</p>
             <a class="underline" href="https://www.linkedin.com/company/frontier-advisory-ltd/?originalSubdomain=mx" target="_blank">{{ __('footer.linkedin') }}</a>
         </div>
     </div>
