@@ -8,19 +8,21 @@ use Illuminate\View\Component;
 
 class Section extends Component
 {
-    /**
-     * Create a new component instance.
-     */
+    public $bgImg;
+    public $height;
+    public $bgPosition;
+    public $bgFixed;
     public function __construct(
-        string $bgImg,
-        string $height,
-        string $bgPosition,
-        string $bgFixed,
-    ) {}
-
-    /**
-     * Get the view / contents that represent the component.
-     */
+        string $bgImg = 'default-bg.png',
+        string $height = 'default-height',
+        string $bgPosition = 'center',
+        string $bgFixed = 'no'
+    ) {
+        $this->bgImg = $bgImg;
+        $this->height = $height;
+        $this->bgPosition = $bgPosition;
+        $this->bgFixed = $bgFixed;
+    }
     public function render(): View|Closure|string
     {
         return view('components.ui.section');
