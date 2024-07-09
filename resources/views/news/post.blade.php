@@ -21,7 +21,7 @@
                 <div class="md:w-[1130px] h-full flex flex-col">
 
                     @if ($post->featured_image)
-                        <img class="w-[1126px] h-[237px] mt-[26px] rounded-[10px] mx-auto" src="{{ asset($post->featured_image) }}">
+                        <img class="w-[1126px] h-[237px] mt-[26px] rounded-[10px] mx-auto object-cover" src="{{ asset($post->featured_image) }}">
                     @endif
 
                     {{-- Data --}}
