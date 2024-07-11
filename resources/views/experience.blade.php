@@ -9,26 +9,48 @@
     <title>Experience</title>
 
     <style>
-        #advisor_exp{
+        #advisor_exp {
             width: 600px;
             text-wrap: wrap;
         }
-        #advisor_exp p{
+
+        #advisor_exp p {
             text-wrap: wrap;
         }
-        @media (min-width: 576px) and (max-width: 767.98px){
-            #advisor_exp{
-                width: 100%;
-                text-wrap: wrap;
+        .absolute {
+                bottom: 10px;
+                right: 0px;
+            }
+        @media (min-width: 1200px) {
+            .absolute {
+                bottom: 14px;
+                right: 3px;
+            }}
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            .absolute {
+                bottom: 15px;
+                right: 3px;
             }
         }
-        @media (max-width: 575.98px) {
-            #advisor_exp{
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .absolute {
+                bottom: 15px;
+                right: 3px;
+            }
+        }
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            #advisor_exp {
                 width: 100%;
                 text-wrap: wrap;
             }
         }
 
+        @media (max-width: 575.98px) {
+            #advisor_exp {
+                width: 100%;
+                text-wrap: wrap;
+            }
+        }
     </style>
 
 </head>
@@ -56,27 +78,30 @@
 
         {{-- Section 3 --}}
         <div id="second-content">
-        <x-ui.section height="w-full"
-            bg-img="bg-white xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
-            <div class="flex flex-col items-center justify-center mt-[20vh] w-full text-black">
-                <div class="relative text-center">
-                    <img class="absolute xs:right-[30.5%] md:right-[2px] xs:bottom-[9%] md:top-[12%] xs:w-[37px] xs:h-[38px] md:w-[49px] md:h-[55px]"
-                        src="{{ asset('images/clip-path-group-inverted.svg') }}" />
-                    <h3 class="md:text-h3 xs:text-s2 font-black md:leading-[78px] xs:leading-[54px]">
-                        {{ __('experience.section2.title') }}
-                    </h3>
-                </div>
+            <x-ui.section height="w-full" bg-img="bg-white xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
+                <div class="flex flex-col items-center justify-center mt-[20vh] w-full text-black">
+                    <div class="text-center">
+                        <h3 class="md:text-h3 xs:text-s2 font-black md:leading-[78px] xs:leading-[54px]">
+                            {{ __('experience.section2.title') }}
+                            <span class="relative">
+                                {{ __('experience.section3.title') }}
+                                @if(App::getLocale() != 'es') 
+                                <img class="absolute xs:w-[37px] xs:h-[38px] md:w-[49px] md:h-[55px]" src="{{ asset('images/clip-path-group-inverted.svg') }}" />
+                                @endif
+                            </span>
+                        </h3>
+                    </div>
 
-                <div class="xs:text-b2 md:text-s4 font-medium text-center xs:mt-[9px] xs:mb-[239px] md:mb-[22px] md:leading-[32px] xs:leading-[22px]">
-                    <p class="xs:hidden md:block">{!! __('experience.section2.subtitle.desktop') !!}</p>
-                    <p class="xs:block md:hidden">{!! __('experience.section2.subtitle.mobile') !!}</p>
+                    <div class="xs:text-b2 md:text-s4 font-medium text-center xs:mt-[9px] xs:mb-[239px] md:mb-[22px] md:leading-[32px] xs:leading-[22px]">
+                        <p class="xs:hidden md:block">{!! __('experience.section2.subtitle.desktop') !!}</p>
+                        <p class="xs:block md:hidden">{!! __('experience.section2.subtitle.mobile') !!}</p>
+                    </div>
                 </div>
-            </div>
-        </x-ui.section></div>
+            </x-ui.section>
+        </div>
 
         {{-- Sección 4 --}}
-        <x-ui.section height="h-full"
-            bg-img="bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
+        <x-ui.section height="h-full" bg-img="bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
             <div class="flex flex-col justify-center items-center gap-[57px]">
 
                 {{-- Title --}}
@@ -87,10 +112,8 @@
                 {{-- Members --}}
                 @foreach ($key_members as $key_member)
                 <div id="advisor_exp" class="my-[20px]">
-                    <x-experience.card reverse="{{ $loop->index % 2 }}" name="{{ __($key_member->name) }}"
-                        position="{{ __($key_member->position) }}" :description="$key_member->description"
-                        img-url="{{ $key_member->img }}" />
-            </div>
+                    <x-experience.card reverse="{{ $loop->index % 2 }}" name="{{ __($key_member->name) }}" position="{{ __($key_member->position) }}" :description="$key_member->description" img-url="{{ $key_member->img }}" />
+                </div>
                 @endforeach
             </div>
 
@@ -102,11 +125,9 @@
 
                 {{-- Advisors --}}
                 @foreach ($advisors as $advisor)
-                    <div id="advisor_exp" class="my-[20px]">
-                    <x-experience.card reverse="{{ $loop->index % 2 }}" name="{{ __($advisor->name) }}"
-                        position="{{ __($advisor->position) }}" :description="$advisor->description"
-                        img-url="{{ $advisor->img }}" />
-                    </div>
+                <div id="advisor_exp" class="my-[20px]">
+                    <x-experience.card reverse="{{ $loop->index % 2 }}" name="{{ __($advisor->name) }}" position="{{ __($advisor->position) }}" :description="$advisor->description" img-url="{{ $advisor->img }}" />
+                </div>
                 @endforeach
             </div>
         </x-ui.section>

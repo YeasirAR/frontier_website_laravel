@@ -54,7 +54,7 @@
                 </div>
             </div>
         </x-ui.section>
-        </div>
+        
         {{-- Sección 3 --}}
         <x-ui.section height="min-h-lvh" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
             <div id="section3" class="relative xs:text-center md:text-left">
