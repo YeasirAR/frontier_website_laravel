@@ -17,23 +17,27 @@
         #advisor_exp p {
             text-wrap: wrap;
         }
-        .absolute {
+        .abs {
+                position: absolute;
                 bottom: 10px;
                 right: 0px;
             }
         @media (min-width: 1200px) {
-            .absolute {
+            .abs {
+                position: absolute;
                 bottom: 14px;
                 right: 3px;
             }}
         @media (min-width: 992px) and (max-width: 1199.98px) {
-            .absolute {
+            .abs {
+                position: absolute;
                 bottom: 15px;
                 right: 3px;
             }
         }
         @media (min-width: 768px) and (max-width: 991.98px) {
-            .absolute {
+            .abs {
+                position: absolute;
                 bottom: 15px;
                 right: 3px;
             }
@@ -86,7 +90,7 @@
                             <span class="relative">
                                 {{ __('experience.section3.title') }}
                                 @if(App::getLocale() != 'es') 
-                                <img class="absolute xs:w-[37px] xs:h-[38px] md:w-[49px] md:h-[55px]" src="{{ asset('images/clip-path-group-inverted.svg') }}" />
+                                <img class="abs xs:w-[37px] xs:h-[38px] md:w-[49px] md:h-[55px]" src="{{ asset('images/clip-path-group-inverted.svg') }}" />
                                 @endif
                             </span>
                         </h3>
