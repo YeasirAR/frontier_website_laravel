@@ -7,6 +7,16 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
     <title>Home</title>
+    <style>
+        #section2 {
+            margin-top: 40lvh;
+            margin-bottom: 40lvh;
+        }
+        #section3 {
+            margin-top: 10lvh;
+            /* margin-bottom: 40lvh; */
+        }
+    </style>
 </head>
 
 <body>
@@ -33,7 +43,7 @@
 
         {{-- Sección 2 --}}
         <x-ui.section height="h-full" bg-img="bg-[url('/public/images/HOME_FRONTIER2.jpg')]">
-            <div class="flex flex-col justify-center items-center h-full text-center relative mt-[100lvh] mb-[50lvh]">
+            <div id="section2"class="flex flex-col justify-center items-center h-full text-center relative">
                 <h1 id="first-content" class="md:text-h3 xs:text-s3 font-black text-white uppercase md:leading-[78px] xs:leading-[44px]">{!! __('home.section2.title') !!}</h1>
 
                 <div class="mt-[40px] text-white text-b1 font-medium text-center leading-6">
@@ -44,17 +54,17 @@
         </x-ui.section>
 
         {{-- Sección 3 --}}
-        <x-ui.section height="h-[250lvh]" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
-            <div class="relative mt-[100lvh] xs:text-center md:text-left">
+        <x-ui.section height="min-h-lvh" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
+            <div id="section3" class="relative xs:text-center md:text-left">
                 <div
                     class="xs:hidden md:block absolute top-[15px] left-[417px]">
                     <img class="w-[850px] h-[731px]" src="{{ asset('/images/line-section-3.svg') }}">
                 </div>
 
-                <div
+                <!-- <div
                     class="xs:block md:hidden absolute top-[217px] left-[273px] h-full">
                     <img class="w-[79.35px] h-[372.11px]" src="{{ asset('/images/line-section-3-mobile.svg') }}">
-                </div>
+                </div> -->
 
                 <div class="absolute md:left-[135px] xs:left-[0px] md:top-[129px] xs:top-[144px] md:w-[555px] xs:w-[350px] xs:h-[88px] md:h-full md:leading-[78px] xs:leading-[44px]">
                     <p class="uppercase md:text-h3 xs:text-s3 font-black text-white">{{ __('home.section3.p1') }}</p>
