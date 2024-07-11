@@ -88,6 +88,15 @@ Route::middleware([Localization::class])->group(function() {
                 ],
                 "img" => "images/members/MIchael-Tory-1.jpg"
             ],
+            (object) [
+                "name" => "experience.section4.advisor3.name",
+                "position" => "experience.section4.advisor3.position",
+                "description" => (object) [
+                    "desktop" => "experience.section4.advisor3.description.desktop",
+                    "mobile" => "experience.section4.advisor3.description.mobile",
+                ],
+                "img" => "images/members/Hesketh-2-BW2-1.png"
+            ],
         ];
 
         //dd( $key_members, $advisors );

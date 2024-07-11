@@ -23,9 +23,9 @@
             <div class="flex flex-col items-center xs:justify-end md:justify-center h-full text-center relative">
                 <h1 class="md:text-h1 xs:text-s3 font-black text-white uppercase md:leading-[98px] xs:leading-[44px]">{{ __('services.section1.title') }}</h1>
 
-                <div class="text-white xs:text-s3 md:text-h1 text-center font-black xs:mb-[154px] md:mb-0 md:leading-[134px] xs:leading-[44px]">
-                    <p class="md:text-[110px]">{{ __('services.section1.subtitle1') }}</p>
-                    <p>{{ __('services.section1.subtitle2') }}</p>
+                <div class="text-white text-center font-black xs:mb-[154px] md:mb-0 md:leading-[134px] xs:leading-[44px]">
+                    <p class="xs:text-s3 md:text-[110px]">{{ __('services.section1.subtitle1') }}</p>
+                    <p class="{{ App::getLocale() == 'es' ? 'xs:text-s2 md:text-h2' : 'xs:text-s3 md:text-h1' }}">{{ __('services.section1.subtitle2') }}</p>
                 </div>
             </div>
 
@@ -40,9 +40,9 @@
         <x-ui.section height="h-full"  bg-img="bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
             <div id="first-content" class="flex flex-col text-center">
                 <div class="md:text-start text-dark-blue-900 font-black mx-auto md:leading-[78px] xs:[44px]">
-                    <h3 class="xs:text-s3 md:text-h3 uppercase">
+                    <!-- <h3 class="xs:text-s3 md:text-h3 uppercase">
                         {{ __('services.section2.title') }}
-                    </h3>
+                    </h3> -->
 
                     <p class="xs:text-b2 md:text-s3">{{ __('services.section2.subtitle') }}</p>
                 </div>

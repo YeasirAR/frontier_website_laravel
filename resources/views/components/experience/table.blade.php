@@ -1,4 +1,4 @@
-<table class="w-[calc(100%-38px)] xs:hidden md:table mt-[50vh]">
+<table class="w-[calc(100%-38px)] xs:hidden md:table mt-5">
     <thead class="text-s3 text-left border-b-4 border-black">
         <tr class="uppercase">
             <th class="font-black">{{ __('experience.section2.table.header1') }}</th>

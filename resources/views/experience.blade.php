@@ -8,6 +8,29 @@
     @vite('resources/js/experience-animation.js')
     <title>Experience</title>
 
+    <style>
+        #advisor_exp{
+            width: 600px;
+            text-wrap: wrap;
+        }
+        #advisor_exp p{
+            text-wrap: wrap;
+        }
+        @media (min-width: 576px) and (max-width: 767.98px){
+            #advisor_exp{
+                width: 100%;
+                text-wrap: wrap;
+            }
+        }
+        @media (max-width: 575.98px) {
+            #advisor_exp{
+                width: 100%;
+                text-wrap: wrap;
+            }
+        }
+
+    </style>
+
 </head>
 
 <body>
@@ -63,9 +86,11 @@
 
                 {{-- Members --}}
                 @foreach ($key_members as $key_member)
+                <div id="advisor_exp" class="my-[20px]">
                     <x-experience.card reverse="{{ $loop->index % 2 }}" name="{{ __($key_member->name) }}"
                         position="{{ __($key_member->position) }}" :description="$key_member->description"
                         img-url="{{ $key_member->img }}" />
+            </div>
                 @endforeach
             </div>
 
@@ -77,9 +102,11 @@
 
                 {{-- Advisors --}}
                 @foreach ($advisors as $advisor)
+                    <div id="advisor_exp" class="my-[20px]">
                     <x-experience.card reverse="{{ $loop->index % 2 }}" name="{{ __($advisor->name) }}"
                         position="{{ __($advisor->position) }}" :description="$advisor->description"
                         img-url="{{ $advisor->img }}" />
+                    </div>
                 @endforeach
             </div>
         </x-ui.section>
