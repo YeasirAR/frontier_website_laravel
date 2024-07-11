@@ -8,6 +8,12 @@
     @vite('resources/js/sectors-animation.js')
     @vite('resources/js/button-scroll.js')
     <title>Sectors</title>
+    <style>
+        .map-image {
+            width: 80%; 
+            height: auto; 
+        }
+    </style>
 </head>
 
 <body>
@@ -24,9 +30,9 @@
         </x-ui.section>
         <div id="first-content">
             {{-- Sección 2 - Desktop --}}
-            <div class="xs:hidden md:block">
-                <img class="sticky top-0 h-screen w-full -z-[1]" src="{{ asset('/images/Section-01.jpg') }}" />
-                <div class="flex xs:flex-col-reverse md:flex-row md:justify-evenly h-full text-center relative">
+            <div class="xs:hidden md:block relative" id="section-2-desktop">
+                <img id="section-2-image" class="h-screen w-full -z-[1]" src="{{ asset('/images/Section-01.jpg') }}" />
+                <div class="absolute inset-0 flex xs:flex-col-reverse md:flex-row md:justify-evenly text-center">
                     <div id="first-content-desktop" class="flex flex-col xs:mt-[69px] md:mt-[70px]">
                         <div class="max-w-[900px]">
                             <h1 class="md:text-s2 xs:text-s4 font-black text-black capitalize md:leading-[54px] xs:leading-[32px]">
@@ -39,7 +45,7 @@
                             <p class="xs:max-w-[350px] md:max-w-[668px] m-auto">{{ __('sectors.section2.subtitle2') }}</p>
                         </div>
 
-                        <img class="m-[16px]" src="{{ asset('/images/map.svg') }}" />
+                        <img class="m-[16px] map-image" src="{{ asset('/images/map.svg') }}" />
                     </div>
 
                     <div class="xs:mt-[61px] md:mt-[70px]">
@@ -114,6 +120,17 @@
             </div>
         </x-ui.section>
     </x-ui.layout>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const section2Image = document.getElementById('section-2-image');
+            const section2Desktop = document.getElementById('section-2-desktop');
+
+            section2Image.onload = function() {
+                section2Desktop.style.height = section2Image.clientHeight + 'px';
+            };
+        });
+    </script>
 </body>
 
 </html>
