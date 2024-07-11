@@ -11,6 +11,7 @@ export default defineConfig({
                 'resources/js/sectors-animation.js',
                 'resources/js/experience-animation.js',
                 'resources/js/news.js',
+                'resources/js/button-scroll.js',
             ],
             refresh: true,
         }),

@@ -4,7 +4,6 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollToPlugin);
 
-const buttonScroll = document.getElementById('button-scroll');
 
 const switchMenu = document.getElementById('switch-menu');
 const languageMenu = document.getElementById('language-menu');
@@ -40,9 +39,6 @@ switchMenu.addEventListener('click', (event) => {
     toogleMenu();
 });
 
-buttonScroll.addEventListener('click', () => {
-    scrollDown();
-})
 
 const toogleMenu = () => {
     showMenu = !showMenu;
@@ -68,12 +64,4 @@ const closeMenuMobile = () => {
     menuMobile.classList.add('xs:hidden');
 }
 
-const scrollDown = () => {
-    console.log(window.innerWidth >= 768 ? firstContentDesktop : firstContentMobile)
-    gsap.to(window, {
-        scrollTo: {
-            y: window.innerWidth >= 768 ? firstContentDesktop : firstContentMobile ,
-            offsetY: (window.innerHeight / 2)
-        }
-    })
-}
+

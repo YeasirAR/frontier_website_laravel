@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    @vite('resources/js/button-scroll.js')
     <title>Home</title>
     <style>
         #section2 {
@@ -42,9 +43,10 @@
         </x-ui.section>
 
         {{-- Sección 2 --}}
+        <div id="first-content">
         <x-ui.section height="h-full" bg-img="bg-[url('/public/images/HOME_FRONTIER2.jpg')]">
             <div id="section2"class="flex flex-col justify-center items-center h-full text-center relative">
-                <h1 id="first-content" class="md:text-h3 xs:text-s3 font-black text-white uppercase md:leading-[78px] xs:leading-[44px]">{!! __('home.section2.title') !!}</h1>
+                <h1 class="md:text-h3 xs:text-s3 font-black text-white uppercase md:leading-[78px] xs:leading-[44px]">{!! __('home.section2.title') !!}</h1>
 
                 <div class="mt-[40px] text-white text-b1 font-medium text-center leading-6">
                     <p class="xs:hidden md:block">{!! __('home.section2.subtitle.desktop') !!}</p>
@@ -52,7 +54,7 @@
                 </div>
             </div>
         </x-ui.section>
-
+        </div>
         {{-- Sección 3 --}}
         <x-ui.section height="min-h-lvh" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
             <div id="section3" class="relative xs:text-center md:text-left">

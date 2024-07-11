@@ -68,7 +68,7 @@ const closeMenuMobile = () => {
 }
 
 const scrollDown = () => {
-    gsap.to(window, {
-        scrollTo: {y: firstContent, offsetY: (window.innerHeight / 2)}
-    })
+    // gsap.to(window, {
+    //     scrollTo: {y: firstContent, offsetY: (window.innerHeight / 2)}
+    // })
 }

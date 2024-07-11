@@ -7,6 +7,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
     @vite('resources/js/services-animation.js')
+    @vite('resources/js/button-scroll.js')
     <title>Services</title>
     <style>
         #slider-container {

@@ -55,14 +55,14 @@
         </x-ui.section>
 
         {{-- Section 3 --}}
+        <div id="second-content">
         <x-ui.section height="w-full"
             bg-img="bg-white xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
             <div class="flex flex-col items-center justify-center mt-[20vh] w-full text-black">
-
                 <div class="relative text-center">
                     <img class="absolute xs:right-[30.5%] md:right-[2px] xs:bottom-[9%] md:top-[12%] xs:w-[37px] xs:h-[38px] md:w-[49px] md:h-[55px]"
                         src="{{ asset('images/clip-path-group-inverted.svg') }}" />
-                    <h3 id="second-content" class="md:text-h3 xs:text-s2 font-black md:leading-[78px] xs:leading-[54px]">
+                    <h3 class="md:text-h3 xs:text-s2 font-black md:leading-[78px] xs:leading-[54px]">
                         {{ __('experience.section2.title') }}
                     </h3>
                 </div>
@@ -72,7 +72,7 @@
                     <p class="xs:block md:hidden">{!! __('experience.section2.subtitle.mobile') !!}</p>
                 </div>
             </div>
-        </x-ui.section>
+        </x-ui.section></div>
 
         {{-- Sección 4 --}}
         <x-ui.section height="h-full"

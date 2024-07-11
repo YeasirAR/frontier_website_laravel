@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     @vite('resources/js/app.js')
+    @vite('resources/js/button-scroll.js')
     <title>Philosophy</title>
 </head>
 
@@ -31,11 +32,12 @@
         </x-ui.section>
 
         {{-- Sección 2 --}}
+        <div id="first-content">
         <x-ui.section height="h-full" bg-img="bg-[url('/public/images/PAPER_BG_FRONTIER.jpg')]">
             <div class="flex flex-col items-center h-full">
                 <div class="flex flex-col items-center h-full mb-[20vh]">
 
-                    <div id="first-content" class="mt-[72px] flex xs:flex-col md:flex-row items-start gap-8 md:w-[648px] md:mx-auto">
+                    <div class="mt-[22px] flex xs:flex-col md:flex-row items-start gap-8 md:w-[648px] md:mx-auto">
                         <div class="flex justify-center xs:w-full md:w-max">
                             <img class="xs:w-[169px] xs:h-[131px] md:max-w-[145px] md:max-h-[112px] md:-ml-[35%]" src="{{ asset('/images/circles-phi-section2.svg') }}" />
                         </div>
@@ -73,7 +75,7 @@
                 </div>
             </div>
         </x-ui.section>
-
+        </div>
         {{-- Sección 3 --}}
         <x-ui.section height="h-[250vh]" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
             <div class="relative mt-[100vh] xs:text-center md:text-left">
