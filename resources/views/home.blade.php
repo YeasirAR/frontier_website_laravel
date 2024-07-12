@@ -13,9 +13,15 @@
             margin-top: 40lvh;
             margin-bottom: 40lvh;
         }
+
         #section3 {
             margin-top: 10lvh;
-            /* margin-bottom: 40lvh; */
+        }
+
+        .bg-center {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
@@ -23,7 +29,7 @@
 <body>
     <x-ui.layout :dark="false">
         {{-- Sección 1 --}}
-        <x-ui.section height="min-h-lvh" bg-img="bg-[url('/public/images/HOME_FRONTIER1.jpg')]">
+        <x-ui.section height="min-h-lvh" bg-img="bg-[url('/public/images/HOME_FRONTIER1.jpg')] bg-center">
             <div class="flex flex-col items-center h-full text-center relative">
 
                 <div class="md:mt-[307px] xs:mt-[194px] md:leading-[98px] xs:leading-[88px]">
@@ -44,7 +50,7 @@
 
         {{-- Sección 2 --}}
         <div id="first-content">
-        <x-ui.section height="h-full" bg-img="bg-[url('/public/images/HOME_FRONTIER2.jpg')]">
+        <x-ui.section height="h-full" bg-img="bg-[url('/public/images/HOME_FRONTIER2.jpg')] bg-center">
             <div id="section2"class="flex flex-col justify-center items-center h-full text-center relative">
                 <h1 class="md:text-h3 xs:text-s3 font-black text-white uppercase md:leading-[78px] xs:leading-[44px]">{!! __('home.section2.title') !!}</h1>
 
@@ -56,7 +62,7 @@
         </x-ui.section>
         
         {{-- Sección 3 --}}
-        <x-ui.section height="h-[250vh]" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
+        <x-ui.section height="h-[250vh]" bg-img="bg-[url('/public/images/PANO0004.jpg')] bg-center">
             <div class="relative mt-[100vh] xs:text-center md:text-left">
                 <div
                     class="xs:hidden md:block absolute top-[15px] left-[417px]">
