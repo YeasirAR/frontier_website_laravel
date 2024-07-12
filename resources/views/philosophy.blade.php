@@ -76,17 +76,45 @@
             </div>
         </x-ui.section>
         </div>
-        {{-- Sección 3 --}}
-        <x-ui.section height="h-[250vh]" bg-img="bg-[url('/public/images/PANO0004.jpg')]">
-            <div class="relative mt-[100vh] xs:text-center md:text-left">
+        {{-- Sección 3 -- Desktop--}}
+        <x-ui.section height="h-[150vh] xs:hidden md:block" bg-img="bg-[url('/public/images/PANO0004.jpg')] bg-center">
+            <div class="relative mt-[35vh] xs:text-center md:text-left">
+                <div
+                    class="xs:hidden md:block absolute top-[15px] left-[415px]">
+                    <img class="w-[850px] h-[733px]" src="{{ asset('/images/line-section-3.svg') }}">
+                </div>
+
+                <div
+                    class="xs:block md:hidden absolute top-[217px] left-[273px] h-full">
+                    <img class="w-[79.35px] h-[372.11px]" src="{{ asset('/images/line-section-3-mobile.svg') }}">
+                </div>
+
+                <div class="absolute md:left-[135px] xs:left-[0px] md:top-[129px] xs:top-[144px] md:w-[555px] xs:w-[350px] xs:h-[88px] md:h-full md:leading-[78px] xs:leading-[44px]">
+                    <p class="uppercase md:text-h3 xs:text-s3 font-black text-white">{{ __('home.section3.p1') }}</p>
+                    <p class="uppercase md:text-h3 xs:text-s3 font-black text-white">{{ __('home.section3.p2') }}</p>
+                </div>
+
+                <div class="absolute md:left-[135px] md:top-[315px] xs:left-[0px] xs:top-[440px] md:w-[555px] xs:w-[350px] xs:h-[88px] md:h-full md:leading-[30px] xs:leading-[44px]">
+                    <p class="capitalize text-white md:text-s1 xs:text-s3 font-bold">{{ __('home.section3.p3') }}</p>
+                </div>
+
+                <div class="absolute xs:left-[0px] md:left-[135px] md:top-[632px] xs:top-[514px] md:w-[555px] md:h-[126px] xs:w-[350px] xs:h-[88px] md:leading-[63px] xs:leading-[44px]">
+                    <p class="capitalize text-white md:text-s1 xs:text-s3 font-bold">{{ __('home.section3.p4') }}</p>
+                    <p class="capitalize text-white md:text-s1 xs:text-s3 font-bold">{{ __('home.section3.p5') }}</p>
+                </div>
+            </div>
+        </x-ui.section>
+        {{-- Sección 3 -- Mobile--}}
+        <x-ui.section height="h-[150vh] xs:block md:hidden" bg-img="bg-[url('/public/images/PANO0004_mobile.jpg')] bg-center">
+            <div class="relative mt-[27vh] xs:text-center md:text-left">
                 <div
                     class="xs:hidden md:block absolute top-[15px] left-[417px]">
                     <img class="w-[850px] h-[731px]" src="{{ asset('/images/line-section-3.svg') }}">
                 </div>
 
                 <div
-                    class="xs:block md:hidden absolute top-[217px] left-[273px] h-full">
-                    <img class="w-[79.35px] h-[372.11px]" src="{{ asset('/images/line-section-3-mobile.svg') }}">
+                    class="xs:block md:hidden absolute top-[216px] left-[269px] h-full">
+                    <img src="{{ asset('/images/line-section-3-mobile.svg') }}">
                 </div>
 
                 <div class="absolute md:left-[135px] xs:left-[0px] md:top-[129px] xs:top-[144px] md:w-[555px] xs:w-[350px] xs:h-[88px] md:h-full md:leading-[78px] xs:leading-[44px]">

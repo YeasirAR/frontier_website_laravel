@@ -122,7 +122,7 @@
         </x-ui.section>
         {{-- Sección 3 -- Mobile--}}
         <x-ui.section height="h-[150vh] xs:block md:hidden" bg-img="bg-[url('/public/images/PANO0004_mobile.jpg')] bg-center">
-            <div class="relative mt-[25vh] xs:text-center md:text-left">
+            <div class="relative mt-[27vh] xs:text-center md:text-left">
                 <div
                     class="xs:hidden md:block absolute top-[15px] left-[417px]">
                     <img class="w-[850px] h-[731px]" src="{{ asset('/images/line-section-3.svg') }}">
