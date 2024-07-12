@@ -19,7 +19,7 @@
     <x-ui.menu :dark="$dark" />
 
     {{-- Icon bottom left fixed --}}
-    <div class="fixed bottom-0">
+    <div class="fixed bottom-0 xs:hidden md:block">
         <img src="{{ asset('/images/clip-path-group.svg') }}">
     </div>
 

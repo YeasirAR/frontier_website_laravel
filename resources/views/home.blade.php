@@ -93,8 +93,8 @@
         </x-ui.section>
         
         {{-- Sección 3 -- Desktop--}}
-        <x-ui.section height="h-[250vh] xs:hidden md:block" bg-img="bg-[url('/public/images/PANO0004.jpg')] bg-center">
-            <div class="relative mt-[100vh] xs:text-center md:text-left">
+        <x-ui.section height="h-[150vh] xs:hidden md:block" bg-img="bg-[url('/public/images/PANO0004.jpg')] bg-center">
+            <div class="relative mt-[35vh] xs:text-center md:text-left">
                 <div
                     class="xs:hidden md:block absolute top-[15px] left-[415px]">
                     <img class="w-[850px] h-[733px]" src="{{ asset('/images/line-section-3.svg') }}">
@@ -121,8 +121,8 @@
             </div>
         </x-ui.section>
         {{-- Sección 3 -- Mobile--}}
-        <x-ui.section height="h-[250vh] xs:block md:hidden" bg-img="bg-[url('/public/images/PANO0004_mobile.jpg')] bg-center">
-            <div class="relative mt-[100vh] xs:text-center md:text-left">
+        <x-ui.section height="h-[150vh] xs:block md:hidden" bg-img="bg-[url('/public/images/PANO0004_mobile.jpg')] bg-center">
+            <div class="relative mt-[25vh] xs:text-center md:text-left">
                 <div
                     class="xs:hidden md:block absolute top-[15px] left-[417px]">
                     <img class="w-[850px] h-[731px]" src="{{ asset('/images/line-section-3.svg') }}">

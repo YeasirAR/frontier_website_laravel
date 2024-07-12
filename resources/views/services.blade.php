@@ -14,6 +14,16 @@
             display: flex;
             width: 5371px;
         }
+
+        .img-res {
+            max-width: 440px;
+        }
+
+        @media (max-width: 768px) {
+            .img-res {
+                max-width: 300px;
+            }
+        }
     </style>
     <script>
         function adjustFontSizeToFit(id) {
@@ -280,61 +290,64 @@
         {{-- Sección 3 --}}
         <x-ui.section height="h-full" bg-img="bg-[url('/public/images/papel_web_1440x900-2.jpg')]">
             <div class="grid md:grid-cols-2 xs:grid-cols-1 md:mx-[50px] md:gap-x-20 xs:gap-y-[80px] mb-[45px]">
-                <div class="flex flex-col md:items-center md:justify-center xs:gap-[54px]">
-                    <x-services.card title="{{ __('services.section3.card1.title') }}">
-                        <img src="{{ asset('/images/group-9.svg') }}" />
+                <div class="flex md:items-center md:justify-center">
+                    <div class="flex flex-col xs:gap-[54px]" style="width: fit-content;">
+                        <x-services.card title="{{ __('services.section3.card1.title') }}">
+                            <img class="img-res" src="{{ asset('/images/group-9.svg') }}" />
 
-                        <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
-                            <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card1.subtitle.desktop')) !!}</p>
-                            <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card1.subtitle.mobile')) !!}</p>
-                        </div>
-                    </x-services.card>
+                            <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
+                                <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card1.subtitle.desktop')) !!}</p>
+                                <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card1.subtitle.mobile')) !!}</p>
+                            </div>
+                        </x-services.card>
+                        <x-services.card title="{{ __('services.section3.card2.title') }}">
+                            <img class="img-res" src="{{ asset('/images/group-1.svg') }}" />
+                            <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
+                                <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card2.subtitle.desktop')) !!}</p>
+                                <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card2.subtitle.mobile')) !!}</p>
+                            </div>
+                        </x-services.card>
 
-                    <x-services.card title="{{ __('services.section3.card2.title') }}">
-                        <img src="{{ asset('/images/group-1.svg') }}" />
-                        <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
-                            <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card2.subtitle.desktop')) !!}</p>
-                            <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card2.subtitle.mobile')) !!}</p>
-                        </div>
-                    </x-services.card>
+                        <x-services.card title="{{ __('services.section3.card3.title') }}">
+                            <img class="img-res" src="{{ asset('/images/group-3.svg') }}" />
 
-                    <x-services.card title="{{ __('services.section3.card3.title') }}">
-                        <img src="{{ asset('/images/group-3.svg') }}" />
-
-                        <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
-                            <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card3.subtitle.desktop')) !!}</p>
-                            <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card3.subtitle.mobile')) !!}</p>
-                        </div>
-                    </x-services.card>
+                            <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
+                                <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card3.subtitle.desktop')) !!}</p>
+                                <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card3.subtitle.mobile')) !!}</p>
+                            </div>
+                        </x-services.card>
+                    </div>
                 </div>
 
-                <div class="flex flex-col md:items-center md:justify-center xs:gap-[54px]">
-                    <x-services.card title="{{ __('services.section3.card4.title') }}">
-                        <img src="{{ asset('/images/group-0.svg') }}" />
+                <div class="flex md:items-center md:justify-center xs:gap-[54px]">
+                    <div class="flex flex-col xs:gap-[54px]" style="width: fit-content;">
+                        <x-services.card title="{{ __('services.section3.card4.title') }}">
+                            <img class="img-res" src="{{ asset('/images/group-0.svg') }}" />
 
-                        <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
-                            <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card4.subtitle.desktop')) !!}</p>
-                            <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card4.subtitle.mobile')) !!}</p>
-                        </div>
-                    </x-services.card>
+                            <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
+                                <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card4.subtitle.desktop')) !!}</p>
+                                <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card4.subtitle.mobile')) !!}</p>
+                            </div>
+                        </x-services.card>
 
-                    <x-services.card title="{{ __('services.section3.card5.title') }}">
-                        <img src="{{ asset('/images/group-2.svg') }}" />
+                        <x-services.card title="{{ __('services.section3.card5.title') }}">
+                            <img class="img-res" src="{{ asset('/images/group-2.svg') }}" />
 
-                        <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
-                            <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card5.subtitle.desktop')) !!}</p>
-                            <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card5.subtitle.mobile')) !!}</p>
-                        </div>
-                    </x-services.card>
+                            <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
+                                <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card5.subtitle.desktop')) !!}</p>
+                                <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card5.subtitle.mobile')) !!}</p>
+                            </div>
+                        </x-services.card>
 
-                    <x-services.card title="{{ __('services.section3.card6.title') }}">
-                        <img src="{{ asset('/images/group-4.svg') }}" />
+                        <x-services.card title="{{ __('services.section3.card6.title') }}">
+                            <img class="img-res" src="{{ asset('/images/group-4.svg') }}" />
 
-                        <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
-                            <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card6.subtitle.desktop')) !!}</p>
-                            <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card6.subtitle.mobile')) !!}</p>
-                        </div>
-                    </x-services.card>
+                            <div class="text-b3 text-black font-medium xs:text-center md:text-left leading-5">
+                                <p class="xs:hidden md:block">{!! html_entity_decode(__('services.section3.card6.subtitle.desktop')) !!}</p>
+                                <p class="xs:block md:hidden">{!! html_entity_decode(__('services.section3.card6.subtitle.mobile')) !!}</p>
+                            </div>
+                        </x-services.card>
+                    </div>
                 </div>
             </div>
         </x-ui.section>
