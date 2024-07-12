@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     @vite('resources/js/sectors-animation.js')
-    @vite('resources/js/button-scroll.js')
+    <!-- @vite('resources/js/button-scroll.js') -->
     <title>Sectors</title>
     <style>
-        .map-image {
-            width: 80%; 
+        .map-img {
+            width: 80% !important; 
             height: auto; 
         }
     </style>
@@ -28,109 +28,94 @@
                 </button>
             </div>
         </x-ui.section>
-        <div id="first-content">
-            {{-- Sección 2 - Desktop --}}
-            <div class="xs:hidden md:block relative" id="section-2-desktop">
-                <img id="section-2-image" class="h-screen w-full -z-[1]" src="{{ asset('/images/Section-01.jpg') }}" />
-                <div class="absolute inset-0 flex xs:flex-col-reverse md:flex-row md:justify-evenly text-center">
-                    <div id="first-content-desktop" class="flex flex-col xs:mt-[69px] md:mt-[70px]">
-                        <div class="max-w-[900px]">
-                            <h1 class="md:text-s2 xs:text-s4 font-black text-black capitalize md:leading-[54px] xs:leading-[32px]">
-                                {{ __('sectors.section2.title') }}
-                            </h1>
-                        </div>
 
-                        <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
-                            <p>{{ __('sectors.section2.subtitle1') }}</p>
-                            <p class="xs:max-w-[350px] md:max-w-[668px] m-auto">{{ __('sectors.section2.subtitle2') }}</p>
-                        </div>
-
-                        <img class="m-[16px] map-image" src="{{ asset('/images/map.svg') }}" />
+        {{-- Sección 2 - Desktop --}}
+        <div class="xs:hidden md:block">
+            <img class="sticky top-0 h-screen w-full -z-[1]" src="{{ asset('/images/Section-01.jpg') }}" />
+            <div id="first-content-desktop" class="flex xs:flex-col-reverse md:flex-row md:justify-evenly h-full text-center relative">
+                <div class="flex flex-col xs:mt-[69px] md:mt-[70px]">
+                    <div class="max-w-[900px]">
+                        <h1 class="md:text-s2 xs:text-s4 font-black text-black capitalize md:leading-[54px] xs:leading-[32px]">
+                            {{ __('sectors.section2.title') }}
+                        </h1>
                     </div>
 
-                    <div class="xs:mt-[61px] md:mt-[70px]">
-                        <div class="max-w-[900px]">
-                            <h1 class="xs:text-s4 md:text-s2 font-black text-black  md:leading-[54px] xs:leading-[32px]">
-                                {{ __('sectors.section2.title2') }}
-                            </h1>
-                        </div>
+                    <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
+                        <p>{{ __('sectors.section2.subtitle1') }}</p>
+                        <p class="xs:max-w-[350px] md:max-w-[668px] m-auto">{{ __('sectors.section2.subtitle2') }}</p>
+                    </div>
 
-                        <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
-                            <p>{{ __('sectors.section2.expertise1') }}</p>
-                            <p>{{ __('sectors.section2.expertise2') }}</p>
-                            <p>{{ __('sectors.section2.expertise3') }}</p>
-                            <p>{{ __('sectors.section2.expertise4') }}</p>
-                            <p>{{ __('sectors.section2.expertise5') }}</p>
-                            <p>{{ __('sectors.section2.expertise6') }}</p>
-                            <p>{{ __('sectors.section2.expertise7') }}</p>
-                            <p>{{ __('sectors.section2.expertise8') }}</p>
-                            <p>{{ __('sectors.section2.expertise9') }}</p>
-                            <p>{{ __('sectors.section2.expertise10') }}</p>
-                        </div>
+                    <img class="m-[16px] map-img" src="{{ asset('/images/map.svg') }}" />
+                </div>
+
+                <div class="xs:mt-[61px] md:mt-[70px]">
+                    <div class="max-w-[900px]">
+                        <h1 class="xs:text-s4 md:text-s2 font-black text-black  md:leading-[54px] xs:leading-[32px]">
+                            {{ __('sectors.section2.title2') }}</h1>
+                    </div>
+
+                    <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
+                        <p>{{ __('sectors.section2.expertise1') }}</p>
+                        <p>{{ __('sectors.section2.expertise2') }}</p>
+                        <p>{{ __('sectors.section2.expertise3') }}</p>
+                        <p>{{ __('sectors.section2.expertise4') }}</p>
+                        <p>{{ __('sectors.section2.expertise5') }}</p>
+                        <p>{{ __('sectors.section2.expertise6') }}</p>
+                        <p>{{ __('sectors.section2.expertise7') }}</p>
+                        <p>{{ __('sectors.section2.expertise8') }}</p>
+                        <p>{{ __('sectors.section2.expertise9') }}</p>
+                        <p>{{ __('sectors.section2.expertise10') }}</p>
                     </div>
                 </div>
             </div>
+        </div>
 
-            {{-- Section 2 - Mobile --}}
-            <x-ui.section height="h-full xs:block md:hidden" bg-img="md:bg-[url('/public/images/Section-01.jpg')] xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
-                <div id="first-content-mobile" class="flex xs:flex-col-reverse md:flex-row md:justify-evenly h-full text-center xs:mt-[20vh] md:mt-[100vh] mb-[20vh]">
-                    <div class="flex flex-col xs:mt-[69px] md:mt-[70px]">
-                        <div class="max-w-[900px]">
-                            <h1 class="md:text-s2 xs:text-s4 font-black text-black capitalize md:leading-[54px] xs:leading-[32px]">
-                                {{ __('sectors.section2.title') }}
-                            </h1>
-                        </div>
-
-                        <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
-                            <p>{{ __('sectors.section2.subtitle1') }}</p>
-                            <p class="xs:max-w-[350px] md:max-w-[668px] m-auto">{{ __('sectors.section2.subtitle2') }}</p>
-                        </div>
-
-                        <img class="m-[16px]" src="{{ asset('/images/map.svg') }}" />
+        {{-- Section 2 - Mobile --}}
+        <x-ui.section height="h-full xs:block md:hidden" bg-img="md:bg-[url('/public/images/Section-01.jpg')] xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
+            <div id="first-content-mobile" class="flex xs:flex-col-reverse md:flex-row md:justify-evenly h-full text-center xs:mt-[20vh] md:mt-[100vh] mb-[20vh]">
+                <div class="flex flex-col xs:mt-[69px] md:mt-[70px]">
+                    <div class="max-w-[900px]">
+                        <h1 class="md:text-s2 xs:text-s4 font-black text-black capitalize md:leading-[54px] xs:leading-[32px]">
+                            {{ __('sectors.section2.title') }}
+                        </h1>
                     </div>
 
-                    <div class="xs:mt-[61px] md:mt-[70px]">
-                        <div class="max-w-[900px]">
-                            <h1 class="xs:text-s4 md:text-s2 font-black text-black  md:leading-[54px] xs:leading-[32px]">
-                                {{ __('sectors.section2.title2') }}
-                            </h1>
-                        </div>
+                    <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
+                        <p>{{ __('sectors.section2.subtitle1') }}</p>
+                        <p class="xs:max-w-[350px] md:max-w-[668px] m-auto">{{ __('sectors.section2.subtitle2') }}</p>
+                    </div>
+                    <img class="m-[16px]" src="{{ asset('/images/map.svg') }}" />
+                </div>
 
-                        <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
-                            <p>{{ __('sectors.section2.expertise1') }}</p>
-                            <p>{{ __('sectors.section2.expertise2') }}</p>
-                            <p>{{ __('sectors.section2.expertise3') }}</p>
-                            <p>{{ __('sectors.section2.expertise4') }}</p>
-                            <p>{{ __('sectors.section2.expertise5') }}</p>
-                            <p>{{ __('sectors.section2.expertise6') }}</p>
-                            <p>{{ __('sectors.section2.expertise7') }}</p>
-                            <p>{{ __('sectors.section2.expertise8') }}</p>
-                            <p>{{ __('sectors.section2.expertise9') }}</p>
-                            <p>{{ __('sectors.section2.expertise10') }}</p>
-                        </div>
+                <div class="xs:mt-[61px] md:mt-[70px]">
+                    <div class="max-w-[900px]">
+                        <h1 class="xs:text-s4 md:text-s2 font-black text-black  md:leading-[54px] xs:leading-[32px]">
+                            {{ __('sectors.section2.title2') }}</h1>
+                    </div>
+
+                    <div class="max-w-[900px] mt-[40px] text-black xs:text-b1 md:text-s3 font-medium text-center md:leading-[44px] xs:leading-[24px]">
+                        <p>{{ __('sectors.section2.expertise1') }}</p>
+                        <p>{{ __('sectors.section2.expertise2') }}</p>
+                        <p>{{ __('sectors.section2.expertise3') }}</p>
+                        <p>{{ __('sectors.section2.expertise4') }}</p>
+                        <p>{{ __('sectors.section2.expertise5') }}</p>
+                        <p>{{ __('sectors.section2.expertise6') }}</p>
+                        <p>{{ __('sectors.section2.expertise7') }}</p>
+                        <p>{{ __('sectors.section2.expertise8') }}</p>
+                        <p>{{ __('sectors.section2.expertise9') }}</p>
+                        <p>{{ __('sectors.section2.expertise10') }}</p>
                     </div>
                 </div>
-            </x-ui.section>
-        </div>
+            </div>
+        </x-ui.section>
 
         {{-- Section 3 --}}
         <x-ui.section id="section-3" height="h-full xs:block md:hidden" bg-position="" bg-img="md:bg-[url('/public/images/Section-2.jpg')] xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
-            <div id="container-3" class="justify-center mb-24 mt-[100vh] xs:hidden md:flex">
+            <div  id="container-3" class="justify-center mb-24 mt-[100vh] xs:hidden md:flex">
                 <img src="{{ asset('images/group.png') }}" />
             </div>
         </x-ui.section>
     </x-ui.layout>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const section2Image = document.getElementById('section-2-image');
-            const section2Desktop = document.getElementById('section-2-desktop');
-
-            section2Image.onload = function() {
-                section2Desktop.style.height = section2Image.clientHeight + 'px';
-            };
-        });
-    </script>
 </body>
 
 </html>

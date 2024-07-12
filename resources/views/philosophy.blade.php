@@ -54,7 +54,7 @@
                         <p class="xs:block md:hidden">{!! __('philosophy.section2.subtitle1.mobile') !!}</p>
                     </div>
 
-                    <div class="mt-[93px] ml-[15%] xs:hidden md:block">
+                    <div class="mt-[93px] xs:hidden md:block">
                         <img class="max-w-[756.15px] max-h-[565.16px]" src="{{ asset('/images/grafico.png') }}" />
                     </div>
 

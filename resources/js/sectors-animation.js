@@ -65,3 +65,18 @@ const closeMenuMobile = () => {
 }
 
 
+const buttonScroll = document.getElementById('button-scroll');
+
+buttonScroll.addEventListener('click', () => {
+    scrollDown();
+})
+
+
+const scrollDown = () => {
+
+    const targetSection = window.innerWidth >= 768 ? firstContentDesktop : firstContentMobile;
+    gsap.to(window, {
+        scrollTo: {y: targetSection.offsetTop},
+        duration: 1 
+    });
+}

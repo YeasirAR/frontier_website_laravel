@@ -15,31 +15,27 @@
             width: 5371px;
         }
     </style>
-                        <script>
-                    function adjustFontSizeToFit(id) {
-                        const element = document.getElementById(id);
-                        if (!element) return;
-                    
-                        // Get the parent width and the element's width
-                        const parentWidth = element.parentElement.offsetWidth;
-                        let elementWidth = element.offsetWidth;
-                    
-                        // Initial font size based on Tailwind's scale, adjust as needed
-                        let fontSize = parseInt(window.getComputedStyle(element).fontSize);
-                    
-                        // Reduce font size until the element fits inside its parent
-                        while (elementWidth > parentWidth && fontSize > 0) {
-                            fontSize--;
-                            element.style.fontSize = `${fontSize}px`;
-                            elementWidth = element.offsetWidth; // Update element width after font size change
-                        }
-                    }
-                    
-                    // Run the function when the document is fully loaded
-                    document.addEventListener('DOMContentLoaded', function() {
-                        adjustFontSizeToFit('fitText');
-                    });
-                    </script>
+    <script>
+        function adjustFontSizeToFit(id) {
+            const element = document.getElementById(id);
+            if (!element) return;
+
+            const parentWidth = element.parentElement.offsetWidth;
+            let elementWidth = element.offsetWidth;
+
+            let fontSize = parseInt(window.getComputedStyle(element).fontSize);
+
+            while (elementWidth > parentWidth && fontSize > 0) {
+                fontSize--;
+                element.style.fontSize = `${fontSize}px`;
+                elementWidth = element.offsetWidth;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            adjustFontSizeToFit('fitText');
+        });
+    </script>
 
 </head>
 
@@ -64,7 +60,7 @@
         </x-ui.section>
 
         {{-- Sección 2 --}}
-        <x-ui.section height="h-full"  bg-img="bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
+        <x-ui.section height="h-full" bg-img="bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
             <div id="first-content" class="flex flex-col text-center">
                 <div class="md:text-start text-dark-blue-900 font-black mx-auto md:leading-[78px] xs:[44px]">
                     <!-- <h3 class="xs:text-s3 md:text-h3 uppercase">
@@ -76,8 +72,7 @@
 
                 <div class="overflow-hidden mt-[57px]">
                     <div id="slider-container" class="flex w-max ml-[50%] relative">
-                        <img id="service-slider-1" class="bg-cover object-cover object-left"
-                            src="{{ asset('images/Group-1000001780.jpg') }}">
+                        <img id="service-slider-1" class="bg-cover object-cover object-left" src="{{ asset('images/Group-1000001780.jpg') }}">
 
                         <img class="absolute left-[45px] top-[42px]" src="{{ asset('/images/Line-1.svg') }}" />
 
@@ -274,7 +269,7 @@
                         <img class="absolute left-[5072px] top-[78px] h-[151px]" src="{{ asset('/images/Line-1.svg') }}" />
                         <x-services.text-slider left="left-[5082px]" top="top-[78px]">
                             <p class="text-b2 font-black">261 MM USD</p>
-                            <p>Sale of 51% stake  </p>
+                            <p>Sale of 51% stake </p>
                             <p>in a Mexican E&P Company</p>
                         </x-services.text-slider>
                     </div>
@@ -284,8 +279,7 @@
 
         {{-- Sección 3 --}}
         <x-ui.section height="h-full" bg-img="bg-[url('/public/images/papel_web_1440x900-2.jpg')]">
-            <div
-                class="grid md:grid-cols-2 xs:grid-cols-1 md:mx-[50px] md:gap-x-20 xs:gap-y-[80px] mb-[45px]">
+            <div class="grid md:grid-cols-2 xs:grid-cols-1 md:mx-[50px] md:gap-x-20 xs:gap-y-[80px] mb-[45px]">
                 <div class="flex flex-col md:items-center md:justify-center xs:gap-[54px]">
                     <x-services.card title="{{ __('services.section3.card1.title') }}">
                         <img src="{{ asset('/images/group-9.svg') }}" />

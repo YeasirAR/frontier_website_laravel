@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
-    @vite('resources/js/button-scroll.js')
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/button-scroll.js') }}"></script>
     <title>Home</title>
     <style>
         #section2 {
@@ -92,12 +92,12 @@
             </div>
         </x-ui.section>
         
-        {{-- Sección 3 --}}
+        {{-- Sección 3 -- Desktop--}}
         <x-ui.section height="h-[250vh] xs:hidden md:block" bg-img="bg-[url('/public/images/PANO0004.jpg')] bg-center">
             <div class="relative mt-[100vh] xs:text-center md:text-left">
                 <div
-                    class="xs:hidden md:block absolute top-[15px] left-[417px]">
-                    <img class="w-[850px] h-[731px]" src="{{ asset('/images/line-section-3.svg') }}">
+                    class="xs:hidden md:block absolute top-[15px] left-[415px]">
+                    <img class="w-[850px] h-[733px]" src="{{ asset('/images/line-section-3.svg') }}">
                 </div>
 
                 <div
@@ -120,7 +120,7 @@
                 </div>
             </div>
         </x-ui.section>
-
+        {{-- Sección 3 -- Mobile--}}
         <x-ui.section height="h-[250vh] xs:block md:hidden" bg-img="bg-[url('/public/images/PANO0004_mobile.jpg')] bg-center">
             <div class="relative mt-[100vh] xs:text-center md:text-left">
                 <div
@@ -129,8 +129,8 @@
                 </div>
 
                 <div
-                    class="xs:block md:hidden absolute top-[217px] left-[273px] h-full">
-                    <img class="w-[79.35px] h-[372.11px]" src="{{ asset('/images/line-section-3-mobile.svg') }}">
+                    class="xs:block md:hidden absolute top-[216px] left-[269px] h-full">
+                    <img src="{{ asset('/images/line-section-3-mobile.svg') }}">
                 </div>
 
                 <div class="absolute md:left-[135px] xs:left-[0px] md:top-[129px] xs:top-[144px] md:w-[555px] xs:w-[350px] xs:h-[88px] md:h-full md:leading-[78px] xs:leading-[44px]">
