@@ -15,6 +15,32 @@
             width: 5371px;
         }
     </style>
+                        <script>
+                    function adjustFontSizeToFit(id) {
+                        const element = document.getElementById(id);
+                        if (!element) return;
+                    
+                        // Get the parent width and the element's width
+                        const parentWidth = element.parentElement.offsetWidth;
+                        let elementWidth = element.offsetWidth;
+                    
+                        // Initial font size based on Tailwind's scale, adjust as needed
+                        let fontSize = parseInt(window.getComputedStyle(element).fontSize);
+                    
+                        // Reduce font size until the element fits inside its parent
+                        while (elementWidth > parentWidth && fontSize > 0) {
+                            fontSize--;
+                            element.style.fontSize = `${fontSize}px`;
+                            elementWidth = element.offsetWidth; // Update element width after font size change
+                        }
+                    }
+                    
+                    // Run the function when the document is fully loaded
+                    document.addEventListener('DOMContentLoaded', function() {
+                        adjustFontSizeToFit('fitText');
+                    });
+                    </script>
+
 </head>
 
 <body>
@@ -26,7 +52,7 @@
 
                 <div class="text-white text-center font-black xs:mb-[154px] md:mb-0 md:leading-[134px] xs:leading-[44px]">
                     <p class="xs:text-s3 md:text-[110px]">{{ __('services.section1.subtitle1') }}</p>
-                    <p class="{{ App::getLocale() == 'es' ? 'xs:text-s2 md:text-h2' : 'xs:text-s3 md:text-h1' }}">{{ __('services.section1.subtitle2') }}</p>
+                    <p id="fitText" class="{{ App::getLocale() == 'es' ? 'xs:text-s3 md:text-base' : 'xs:text-s3 md:text-h1' }}">{{ __('services.section1.subtitle2') }}</p>
                 </div>
             </div>
 

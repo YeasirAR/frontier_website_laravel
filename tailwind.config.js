@@ -7,6 +7,14 @@ export default {
   ],
   theme: {
     extend: {
+      // backgroundImage: {
+      //   'section1-desktop': "url('/public/images/HOME_FRONTIER1.jpg')",
+      //   'section1-mobile': "url('/public/images/HOME_FRONTIER1_mobile.jpg')",
+      //   'section2-desktop': "url('/public/images/HOME_FRONTIER2.jpg')",
+      //   'section2-mobile': "url('/public/images/HOME_FRONTIER2_mobile.jpg')",
+      //   'section3-desktop': "url('/public/images/PANO0004.jpg')",
+      //   'section3-mobile': "url('/public/images/PANO0004_mobile.jpg')",
+      // },
       screens: {
         'xs': '0px',
       },
