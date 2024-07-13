@@ -58,11 +58,11 @@
 
                 <div class="text-white text-center font-black xs:mb-[154px] md:mb-0 md:leading-[134px] xs:leading-[44px]">
                     <p class="xs:text-s3 md:text-[110px]">{{ __('services.section1.subtitle1') }}</p>
-                    <p id="fitText" class="{{ App::getLocale() == 'es' ? 'xs:text-s3 md:text-base' : 'xs:text-s3 md:text-h1' }}">{{ __('services.section1.subtitle2') }}</p>
+                    <p id="fitText" class="{{ App::getLocale() == 'es' ? 'xs:text-s3 md:text-h4' : 'xs:text-s3 md:text-h1' }}">{{ __('services.section1.subtitle2') }}</p>
                 </div>
             </div>
 
-            <div class="absolute bottom-[38.28px] left-[calc(50%-31px)]">
+            <div class="absolute bottom-[38.28px] left-[calc(50%-31px)] mt-10">
                 <button type="button" id="button-scroll">
                     <img src="{{ asset('images/frame.svg') }}">
                 </button>

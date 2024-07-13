@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/button-scroll.js') }}"></script>
+    @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
+    @vite('resources/js/button-scroll.js')
     <title>Home</title>
     <style>
         #section2 {
