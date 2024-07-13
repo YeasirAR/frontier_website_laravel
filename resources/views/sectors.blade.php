@@ -31,7 +31,8 @@
 
         {{-- Sección 2 - Desktop --}}
         <div class="xs:hidden md:block">
-            <img class="sticky top-0 h-screen w-full -z-[1]" src="{{ asset('/images/Section-01.jpg') }}" />
+        <x-ui.section height="h-full xs:hidden md:block" bg-img="md:bg-[url('/public/images/Section-01.jpg')] xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
+
             <div id="first-content-desktop" class="flex xs:flex-col-reverse md:flex-row md:justify-evenly h-full text-center relative">
                 <div class="flex flex-col xs:mt-[69px] md:mt-[70px]">
                     <div class="max-w-[900px]">
@@ -68,10 +69,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </x-ui.section>
 
         {{-- Section 2 - Mobile --}}
-        <x-ui.section height="h-full xs:block md:hidden" bg-img="md:bg-[url('/public/images/Section-01.jpg')] xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')]">
+        <x-ui.section height="h-full xs:block md:hidden" bg-img="md:bg-[url('/public/images/Section-01.jpg')] xs:bg-[url('/public/images/papel_web_1440x900-1.jpg')] bg-center">
             <div id="first-content-mobile" class="flex xs:flex-col-reverse md:flex-row md:justify-evenly h-full text-center xs:mt-[20vh] md:mt-[100vh] mb-[20vh]">
                 <div class="flex flex-col xs:mt-[69px] md:mt-[70px]">
                     <div class="max-w-[900px]">
